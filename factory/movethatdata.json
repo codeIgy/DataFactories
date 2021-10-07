@@ -1,0 +1,9 @@
+{
+	"name": "movethatdata",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a6594f76-e9ed-4395-aef3-252169bb72d4",
+		"tenantId": "07e3ee57-d479-4212-b12c-205538d8b352"
+	}
+}
