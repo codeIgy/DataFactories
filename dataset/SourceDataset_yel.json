@@ -1,0 +1,28 @@
+{
+	"name": "SourceDataset_yel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "log-file.txt",
+				"container": "igorgen2fs"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "2019-11-18 19:23:28 127.0.0.1 DEBUG /debugattach.aspx - 443 - 127.0.0.1 - - 401 0 0 4046",
+				"type": "String"
+			}
+		]
+	}
+}
